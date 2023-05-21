@@ -99,9 +99,19 @@ header{
     }
     .btnL{
         font-size: 0.9rem;
-        padding: 3px 5px;
+        padding: 3px 7px;
     }
     .signUp{
         margin-left:4px;
+    }
+  }
+
+  @media (max-width:400px) {
+    .order{
+        display: none;
+    }
+    .signUp{
+        font-size:1rem;
+        padding: 5px 8px;
     }
   }
