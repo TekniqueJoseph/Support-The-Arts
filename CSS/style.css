@@ -47,6 +47,27 @@ header{
 .brief h3{
     font-size: 1.22rem;    
 }
+.btnL{
+    display:inline-block
+    ;width:5rem;
+    padding:5px 10px; 
+    text-align: center;
+    font-size:1.01rem;
+    border-radius:5px;
+    text-decoration: none;
+}
+.contact{
+    display:inline-block;
+    color:#fff;
+    width:5rem;
+    background:linear-gradient(to right, black, darkgray);
+}
+.explore{
+    color:#fff;
+    border:1px solid white;
+    margin-left:10px;
+    background-color: black;
+}
 
 #hamburger{display:none;}
 
