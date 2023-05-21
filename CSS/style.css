@@ -48,3 +48,25 @@ header{
     font-size: 1.22rem;    
 }
 
+#hamburger{display:none;}
+
+@media (max-width:800px) {
+    body{
+        font-size:14px;
+    }
+    #menuList{
+        display: none;
+    }
+    #hamburger{
+        display:block;
+    }
+    /* .right{width:65vw;}
+    .right p {line-height:30px;padding-top:5px;}
+    .social-icons i {font-size:0.9em;padding:10px;}
+    .skill{width:45%} */
+    /* .box{background:seagreen;} */
+    /* .project-images img{width:40vw;}
+    .box-3{flex-direction:row;}
+    .box-3 img{margin-top: 0;} */
+  }
+
