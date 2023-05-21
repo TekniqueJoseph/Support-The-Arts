@@ -56,13 +56,13 @@ header{
     border-radius:5px;
     text-decoration: none;
 }
-.contact{
+.order{
     display:inline-block;
     color:#fff;
     width:5rem;
     background:linear-gradient(to right, black, darkgray);
 }
-.explore{
+.signUp{
     color:#fff;
     border:1px solid white;
     margin-left:10px;
@@ -91,3 +91,15 @@ header{
     .box-3 img{margin-top: 0;} */
   }
 
+  @media (max-width:600px) {
+    body{
+        font-size:12px;
+    }
+    .btnL{
+        font-size: 0.9rem;
+        padding: 3px 5px;
+    }
+    .signUp{
+        margin-left:4px;
+    }
+  }
