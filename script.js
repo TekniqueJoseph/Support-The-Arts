@@ -1,24 +1,23 @@
 const hamburger = document.getElementById('hamburger')
-const slide = document.getElementById('responsivelist');
-const slideListItems = document.querySelectorAll('.li')
+const slideMenu = document.getElementById('responsivelist');
 const x = document.getElementById('closemenu')
+const slideListItems = document.querySelectorAll('.li')
 
-
-const openMenu = () => {
-    slide.style.width = "200px";
+const openSlideMenu = () => {
+    slideMenu.style.width = "200px";
     return
 }
 
-const closeMenu = () => {
-    slide.style.width = "0";
+const closeSlideMenu = () => {
+    slideMenu.style.width = "0";
     return
 }
 
 slideListItems.forEach(listItem => {
     listItem.addEventListener('click', function handleClick(event) {
-      slide.style.width = "0";
+      slideMenu.style.width = "0";
     });
   }); 
-hamburger.addEventListener('click', openMenu)
-x.addEventListener('click', closeMenu)
+hamburger.addEventListener('click', openSlideMenu)
+x.addEventListener('click', closeSlideMenu)
 
