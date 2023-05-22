@@ -60,7 +60,7 @@ header{
     color:#fff;
     font-size:1.2em;
     text-align:right!important;}
-    
+
 #logo{
     margin: 12px;
 }
@@ -74,8 +74,8 @@ header{
     font-size: 1.22rem;    
 }
 .btnL{
-    display:inline-block
-    ;width:5rem;
+    display:inline-block;
+    width:5rem;
     padding:5px 10px; 
     text-align: center;
     font-size:1.01rem;
@@ -85,7 +85,7 @@ header{
 .shop{
     display:inline-block;
     color:#fff;
-    width:5rem;
+    /* width:5rem; */
     background:linear-gradient(to right, black, darkgray);
 }
 .explore{

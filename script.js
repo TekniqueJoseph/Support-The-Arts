@@ -1,7 +1,8 @@
+const hamburger = document.getElementById('hamburger')
 const slide = document.getElementById('responsivelist');
-const closeL = document.querySelectorAll('.li')
-const closeSlide = document.getElementById('closemenu')
-const newMenu = document.getElementById('hamburger')
+const slideListItems = document.querySelectorAll('.li')
+const x = document.getElementById('closemenu')
+
 
 const openMenu = () => {
     slide.style.width = "200px";
@@ -13,11 +14,11 @@ const closeMenu = () => {
     return
 }
 
-closeL.forEach(list => {
-    list.addEventListener('click', function handleClick(event) {
+slideListItems.forEach(listItem => {
+    listItem.addEventListener('click', function handleClick(event) {
       slide.style.width = "0";
     });
   }); 
-newMenu.addEventListener('click', openMenu)
-closeSlide.addEventListener('click', closeMenu)
+hamburger.addEventListener('click', openMenu)
+x.addEventListener('click', closeMenu)
 
