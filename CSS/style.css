@@ -251,4 +251,7 @@ header{
         grid-area: 4/2/5/3;
         justify-self: center;
     }
+    .icon p{
+        /* margin-top: 0; */
+    }
   }
