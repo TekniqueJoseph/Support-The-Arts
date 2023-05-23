@@ -198,6 +198,20 @@ header{
     .box-3 img{margin-top: 0;} */
   }
 
+  @media (max-width:700px) {
+    .icon img{
+        width: 20%;
+        padding-top: 2.5rem;
+        padding-bottom: 0;
+    }
+    .icon p{
+        margin-top: 0;
+    }
+    .aboutSectionHead h1{
+        margin-bottom: 0;
+    }
+  }
+
   @media (max-width:600px) {
     body{
         font-size:12px;
@@ -209,11 +223,15 @@ header{
     .explore{
         margin-left:4px;
     }
-  }
+  }  
 
   @media (max-width:450px) {
     .shop{
         display: none;
+    }
+    .icon img{
+        width: 4rem;
+        padding: 0;
     }
     .explore{
         font-size:1rem;
