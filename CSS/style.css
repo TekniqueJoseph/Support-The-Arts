@@ -98,7 +98,8 @@ header{
     color:#fff;
     border:1px solid white;
     margin-left:10px;
-    background-color: black;
+    /* background-color: black; */
+    /* opacity: .7; */
 }
 .underline{
     width:6.5em; 
@@ -161,10 +162,10 @@ header{
     grid-area: 3/3/4/4;
     justify-self: center;
 }
-.icon p{
-    /* text-align: center; */
-    /* padding-left: 15px; */
-}
+/* .icon p{
+    text-align: center;
+    padding-left: 15px;
+} */
 @media (max-width:915px) {
     .brief{
         top: 45vh;
@@ -227,7 +228,6 @@ header{
         margin: 0 2px;
     }
   }  
-
   @media (max-width:450px) {
     #top h1{
         font-size:1rem;
@@ -239,7 +239,6 @@ header{
         font-size:1rem;
         padding: 5px 8px;
     }
-
     #about{
         display: grid;
         grid-template-rows: 18vh 25vh 25vh;
