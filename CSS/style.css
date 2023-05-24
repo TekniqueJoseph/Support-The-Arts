@@ -376,4 +376,27 @@ header{
     #about h1{
         /* margin-top: rem; */
     }
+    .slide{
+        margin-top: 1rem;
+      }
+    #testimonials{
+        padding: 80px;
+        padding-top: 150px;
+      }
+    #testimonials h1{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .underline{
+        margin-top: 0px;
+    }
+    .slide img{
+        width: 90px;
+        margin-bottom: 16px;
+    }
+    .slide p, span{
+        font-style: italic;
+        font-size: .8rem;  
+    }
+    
   }
