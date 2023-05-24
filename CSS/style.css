@@ -239,7 +239,7 @@ header{
         padding-top: 0;
     }
     .icon{
-        margin: 16px 5px 0px;
+        margin: 16px 16px 0px;
     }
 
     .icon p{
@@ -293,7 +293,7 @@ header{
         text-align: center;
     }
     .icon{
-        margin: 0 2px;
+        margin: 0 8px;
     }
 
   } 
