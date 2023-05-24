@@ -353,12 +353,12 @@ header{
         justify-self: center;
     }
     .icon img{
-        width: 4rem;
+        width: 2rem;
         padding: 0;
-        margin-top: 16px;
+        margin-top: 14px;
     }
     .icon p{
-        font-size:13px;
+        font-size:12px;
     }
     #about{
         /* padding-top: 100px; */
