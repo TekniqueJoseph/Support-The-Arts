@@ -172,10 +172,7 @@ header{
     margin-top: 24px;
 
 }
-/* .icon p{
-    text-align: center;
-    padding-left: 15px;
-} */
+
 
 #testimonials{
     /* margin-top: 1rem; */
@@ -213,28 +210,53 @@ header{
       }
   .slide{
     width: 100%;
+    margin-top: 2rem;
   }
   .slide img{
     width: 150px;
+    margin-bottom: 16px;
   }
   .slide p{
     font-style: italic;
-    font-size: 1.4em;
-  
+    font-size: 1.1rem;  
   }
 @media (max-width:916px) {
     .brief{
         top: 45vh;
     }
+    .underline{
+        margin-bottom: 0;
+    }
+
     .aboutSectionHead h1{
         margin-top: 24px;
         font-size: 1.2rem;
         padding-top: 32px;
         text-align: center;
     }
+    .slide{
+        margin-top: 0rem;
+      }
+    #testimonials{
+        padding: 55px;
+      }
+    #testimonials h1{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     .underline{
         margin-top: 0px;
     }
+    .slide img{
+        width: 90px;
+        margin-bottom: 16px;
+    }
+    .slide p, span{
+        font-style: italic;
+        font-size: .8rem;  
+    }
+
+    
     .icon{
         margin: 16px 16px 0px;
     }
