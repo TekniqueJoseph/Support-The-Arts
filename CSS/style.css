@@ -234,6 +234,7 @@ header{
         /* padding-top: 16px; */
         text-align: center;
     }
+    /
     .underline{
         margin-top: 0px;
         padding-top: 0;
@@ -244,6 +245,7 @@ header{
 
     .icon p{
         margin-top: 0;
+        font-size: 13px;
     }
   }
 @media (max-width:800px) {
