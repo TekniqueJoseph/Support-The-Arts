@@ -311,7 +311,7 @@ header{
     }
     #about{
         display: grid;
-        grid-template-rows: 13vh 29vh 29vh 29vh;
+        grid-template-rows: 12vh 29vh 29vh 29vh;
         grid-template-columns: repeat(2,1fr);
         /* margin-bottom: 400px; */
         padding-bottom: 0;
@@ -353,7 +353,7 @@ header{
         justify-self: center;
     }
     .icon img{
-        width: 2rem;
+        width: 4rem;
         padding: 0;
         margin-top: 14px;
     }
