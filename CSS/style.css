@@ -168,9 +168,9 @@ header{
 }
 
 .icon img{
-    width: 40%;
-    height: 40%;
-    margin-top: 16px;
+    width: 35%;
+    height: 35%;
+    margin-top: 24px;
 
 }
 /* .icon p{
@@ -272,7 +272,7 @@ header{
   }
   @media (max-width:675px) {
     body{
-        font-size:16px;
+        font-size:12px;
     }
     .brief{
         top: 55vh;
@@ -311,7 +311,7 @@ header{
     }
     #about{
         display: grid;
-        grid-template-rows: 13vh 29vh 29vh 29vh;;
+        grid-template-rows: 13vh 29vh 29vh 29vh;
         grid-template-columns: repeat(2,1fr);
         /* margin-bottom: 400px; */
         padding-bottom: 0;
