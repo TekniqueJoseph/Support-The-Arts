@@ -194,14 +194,15 @@ header{
     width: 500%;
     position: absolute;
     left: 0;
-    animation: amimate 30s 5;
-    animation-delay:5s;
+    animation: amimate 40s 5;
+    animation-delay:6s;
+    animation-timing-function: linear;
   }
   @keyframes amimate {
     0%{}
       5%{left:-100%}
-      25%{left:-100%}
-       30%{left:-200%}
+      20%{left:-100%}
+       25%{left:-200%}
        45%{left:-200%}
         50%{left:-300%}
         75%{left:-300%}
@@ -389,7 +390,7 @@ header{
         margin-top: 0px;
     }
     .slide img{
-        width: 120px;
+        width: 150px;
         margin-bottom: 16px;
     }
     .slide p, span{
