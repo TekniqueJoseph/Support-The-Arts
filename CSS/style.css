@@ -223,7 +223,7 @@ header{
   }
 @media (max-width:916px) {
     .brief{
-        top: 45vh;
+        top: 40vh;
     }
     .underline{
         margin-bottom: 0;
@@ -252,7 +252,7 @@ header{
         width: 90px;
         margin-bottom: 16px;
     }
-    .slide p, span{
+    .slide p{
         font-style: italic;
         font-size: .8rem;  
     }
