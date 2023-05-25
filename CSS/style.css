@@ -282,7 +282,7 @@ header{
   @media (max-width:675px) {
 
     .brief{
-        top: 55vh;
+        top: 45vh;
     }
     .btnL{
         font-size: 0.9rem;
