@@ -44,6 +44,9 @@ header{
 #hamburger{
     display:none;
 }
+#hamburger:hover{
+    cursor: pointer;
+}
 #responsivelist{
     position:absolute;
     top:0;left:0;
@@ -68,6 +71,8 @@ header{
     color:#fff;
     font-size:1.2em;
     text-align:right!important;}
+
+
 #logo{
     margin: 12px;
 }
@@ -194,7 +199,7 @@ header{
     width: 500%;
     position: absolute;
     left: 0;
-    animation: amimate 40s 5;
+    animation: amimate 30s 5;
     animation-delay:6s;
     animation-timing-function: linear;
   }
