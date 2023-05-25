@@ -394,6 +394,7 @@ header{
     }
     .underline{
         margin-top: 0px;
+        width:4.5rem; 
     }
     .slide img{
         width: 150px;
