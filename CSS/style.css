@@ -184,6 +184,7 @@ header{
     position: relative;    
     overflow: hidden;
     padding-top: 10rem;
+    background-color: aqua;
     /* width: 100%; */
 
 }
@@ -489,12 +490,34 @@ margin: 16px 16px 0px;
   }
 
   @media (max-width:350px){
+    #testimonials{
+        padding-top: 4rem;
+        padding-bottom: 0;
+        /* padding-top: 5rem; */
+        top: 100;
+        max-height: 20vh;
+    }
+    .testSectionHead{
+        position: absolute;
+        top: 150px;
+    }
+    #testimonials h1{
+        
+    }
+    .container{
+        display: flex;
+        height: calc(100vh - 150px);
+        align-items: center;
+    }
+
+    #order{
+        padding-top: 1rem;
+    }
     .orderHead{
         padding-bottom: 2rem;
-        padding-top: 0;
     }
     #order h1{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     #order h3{
         font-size: 1rem;
