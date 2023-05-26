@@ -322,10 +322,16 @@ margin: 16px 16px 0px;
     font-size: .8rem;  
     margin-top: 0;
 }
+#order{
+    padding-top: 3rem;
+}
 
 .orderHead{
     margin-bottom: 1rem;
 /* padding-bottom: 10rem; */
+}
+.orderHead h1{
+    display: none;
 }
 .item{
     width: 49%;
@@ -468,7 +474,7 @@ margin: 16px 16px 0px;
         font-size: 1rem;  
     }
     .orderHead{
-        padding-bottom: .5rem;
+        padding-bottom: .9rem;
     }
     .orderProducts{
         flex-direction: column;
@@ -484,7 +490,7 @@ margin: 16px 16px 0px;
 
   @media (max-width:350px){
     .orderHead{
-        padding-bottom: 3.5rem;
+        padding-bottom: 2rem;
         padding-top: 0;
     }
     #order h1{
