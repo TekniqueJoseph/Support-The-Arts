@@ -307,7 +307,7 @@ margin: 16px 16px 0px;
 }
 .slide img{
     width: 90px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 .slide p{
     font-style: italic;
@@ -316,6 +316,7 @@ margin: 16px 16px 0px;
 
 .slide span{
     font-size: .8rem;  
+    margin-top: 0;
 }
 
 .orderHead{
