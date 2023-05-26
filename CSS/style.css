@@ -246,7 +246,7 @@ height: 80vh;
     border: 1px solid black;
     width: 49%;
 }
-.products h1, h3{
+.products h1 h3{
     text-align: center;
 }
 .productSelections{
@@ -270,7 +270,7 @@ height: 80vh;
 }
 @media (max-width:1100px) {
 .brief{
-top: 30h;
+top: 30vh;
 }
 .underline{
 margin-bottom: 0;
