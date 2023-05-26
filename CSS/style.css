@@ -274,7 +274,7 @@ height: 80vh;
 }
 @media (max-width:1100px) {
 .brief{
-top: 39vh;
+top: 38vh;
 }
 .underline{
 margin-bottom: 0;
@@ -339,6 +339,9 @@ margin: 16px 16px 0px;
 }
 #hamburger{
     display:block;
+}
+.brief{
+    top: 41vh;
 }
 }
 
