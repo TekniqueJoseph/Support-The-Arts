@@ -295,12 +295,17 @@ top: 38vh;
     padding-top: 2rem;
 }
 #testimonials h1{
-    margin-top: 2.1rem;
+    margin-top: 2rem;
     margin-bottom: 6px;
+}
+#testimonials img{
+    margin-top: .5rem;
+    margin-bottom: 4px;
 }
 
 #testimonials p{
     margin-top: 5px;
+    margin-bottom: 0px;
 }
 
 .underline{
