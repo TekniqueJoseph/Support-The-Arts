@@ -278,7 +278,6 @@ height: 80vh;
     text-align: center;
 }
 .orderList{
-    /* border: 1px solid black; */
     width: 49%;
 }
 @media (max-width:1100px) {
@@ -287,6 +286,7 @@ top: 38vh;
 }
 .underline{
 margin-bottom: 0;
+margin-top: 0px;
 }
 .aboutSectionHead h1{
 margin-top: 24px;
@@ -294,20 +294,17 @@ font-size: 1.2rem;
 padding-top: 32px;
 text-align: center;
 }
-.slide{
-margin-top: 0rem;
-}
 .icon{
-margin: 16px 16px 0px;
-}
-.icon img{
-    width: 3rem;
-    margin-top: 1.5rem;
+    margin: 16px 16px 0px;
     }
-.icon p{
-    margin-top: 0;
-    font-size: 13px;
-}
+    .icon img{
+        width: 3rem;
+        margin-top: 1.5rem;
+        }
+    .icon p{
+        margin-top: 0;
+        font-size: 13px;
+    }
 #testimonials{
     padding: 3.5rem;
 }
@@ -315,9 +312,9 @@ margin: 16px 16px 0px;
     margin-top: 0;
     margin-bottom: 0;
 }
-.underline{
-    margin-top: 0px;
-}
+.slide{
+    margin-top: 0rem;
+    }
 .slide img{
     width: 90px;
     margin-bottom: 8px;
@@ -334,12 +331,9 @@ margin: 16px 16px 0px;
     padding-top: 3rem;
 }
 .orderHead{
-    margin-bottom: 1rem;
-/* padding-bottom: 10rem; */
-}
-.orderHead h1{
     display: none;
 }
+
 .item{
     width: 49%;
     height: 22vh;
@@ -381,14 +375,13 @@ margin: 16px 16px 0px;
     font-size: 12px;
 }
 .icon{
-    margin: 0 0 36px 0;
-    /* padding-bottom: 32px; */
+    margin: 0 0 2.2rem 0;
 }
 #testimonials{
     padding: 3.5rem;
 }
-} 
-  
+}  
+
 @media (max-width:450px) {
     #top h1{
         font-size:1rem;
@@ -415,8 +408,10 @@ margin: 16px 16px 0px;
     }
     .aboutSectionHead h1{
         margin-top: 8px;
-        /* padding-top: 4rem; */
         font-size: 1.5rem;
+    }
+    #about p{
+        font-size:14px;
     }
     .icon1{
         grid-area: 2/1/3/2;
@@ -447,24 +442,14 @@ margin: 16px 16px 0px;
         padding: 0;
         margin-top: 14px;
     }
-    #about p{
-        font-size:14px;
-    }
-    .slide{
-        margin-top: 1rem;
-    }
     #testimonials{
-        /* padding-top: 4rem;
-        padding-bottom: 0; */
         padding: 0;
         text-align: center;
     }
     .testSectionHead{
         position: relative;
         top: 200px;
-        /* left: 50; */
         z-index: 5;
-        /* text-align: center; */
     }
     .testSectionHead h1{
         text-align: center;
@@ -479,6 +464,9 @@ margin: 16px 16px 0px;
         margin-top: 0px;
         width:4.5rem; 
     }
+    .slide{
+        margin-top: 1rem;
+    }
     .slide img{
         width: 150px;
         margin-bottom: 16px;
@@ -487,21 +475,21 @@ margin: 16px 16px 0px;
         font-style: italic;
         font-size: 1rem;  
     }
-
     .slide span{
-        font-size: 1rem;  
+        font-size: 1.1rem;  
     }
     .orderHead{
+        margin-top: 0;
         padding-bottom: .9rem;
     }
     .orderProducts{
         flex-direction: column;
     }
     .products{
-        width: 100%;
+        width: 99%;
     }
     .orderList{
-        width: 100%;
+        width: 99%;
     }
   }
 
