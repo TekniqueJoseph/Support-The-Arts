@@ -267,8 +267,8 @@ height: 80vh;
 top: 38vh;
 }
 #testimonials{
-    min-height: 90vh;
-    padding-top: 3rem;
+    min-height: 100vh;
+    padding-top: 2rem;
 }
 .underline{
     margin-bottom: 0;
@@ -340,7 +340,7 @@ top: 38vh;
 }
 #testimonials{
     min-height: 90vh;
-    padding-top: 2rem;
+    padding-top:0;
 }
 #testimonials h1{
     margin-bottom: 8px;
