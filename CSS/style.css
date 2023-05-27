@@ -455,6 +455,7 @@ top: 38vh;
         position: relative;
         top: 200px;
         z-index: 5;
+        padding-bottom: 2.5rem;
     }
     .testSectionHead h1{
         text-align: center;
@@ -466,8 +467,10 @@ top: 38vh;
         /* justify-content: center; */
     }
     .underline{
-        margin-top: 0px;
-        width:4.5rem; 
+        margin-top: 1px;
+        width:5.5rem;
+
+        /* padding-top: 1rem; */
     }
     .slide{
         margin-top: 1rem;
@@ -498,7 +501,7 @@ top: 38vh;
     }
   }
 
-  @media (max-width:350px){
+  @media (max-width:400px){
     #testimonials{
         padding-top: 4rem;
         padding-bottom: 0;
