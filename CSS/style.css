@@ -340,7 +340,7 @@ top: 38vh;
 }
 #testimonials{
     min-height: 90vh;
-    padding-top:0;
+    padding-top:1rem;
 }
 #testimonials h1{
     margin-bottom: 8px;
