@@ -84,7 +84,8 @@ header{
     position:absolute;
     top:57vh;
     left:54vw;
-    color: white
+    color: white;
+    /* text-align: center; */
 }
 .brief h3{
     font-size: 1.22rem;    
@@ -123,6 +124,7 @@ header{
     display: grid;
     grid-template-rows: 19vh 40vh 40vh;
     grid-template-columns: repeat(3,1fr);
+    padding-bottom: 10px;
 }
 
 .aboutSectionHead .backGround{
@@ -187,6 +189,14 @@ header{
     overflow: hidden;
     min-height: 100vh;
     background-color: aqua;
+}
+#testimonials h1{
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+
+#testimonials .underline{
+    margin-bottom: 8px;
 }
 .container{
     display: flex;
@@ -255,7 +265,7 @@ height: 80vh;
     height: 33vh;
     padding: 0;
 }
-.orderList h1, h2{
+.orderList h2{
     text-align: center;
 }
 .orderList{
