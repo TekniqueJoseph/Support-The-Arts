@@ -448,15 +448,28 @@ margin: 16px 16px 0px;
     .slide{
         margin-top: 1rem;
       }
+      
     #testimonials{
-        padding: 80px;
-        padding-top: 200px;
-      }
-    #testimonials h1{
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 1.2rem;
+        /* padding-top: 4rem;
+        padding-bottom: 0; */
+        padding: 0;
+        text-align: center;
+    }
+    .testSectionHead{
+        position: relative;
+        top: 250px;
+        /* left: 50; */
+        z-index: 5;
         /* text-align: center; */
+    }
+    .testSectionHead h1{
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        height: calc(100vh - 150px);
+        align-items: center;
+        /* justify-content: center; */
     }
     .underline{
         margin-top: 0px;
@@ -493,16 +506,10 @@ margin: 16px 16px 0px;
     #testimonials{
         padding-top: 4rem;
         padding-bottom: 0;
-        /* padding-top: 5rem; */
-        top: 100;
-        max-height: 20vh;
     }
     .testSectionHead{
         position: absolute;
         top: 150px;
-    }
-    #testimonials h1{
-        
     }
     .container{
         display: flex;
