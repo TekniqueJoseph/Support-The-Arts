@@ -11,7 +11,9 @@ html{
 
 }
 body{
+
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     margin: 0 auto;
     font-size: 16px;
@@ -127,7 +129,7 @@ header{
 }
 #about{
     display: grid;
-    grid-template-rows: 20vh 40vh 40vh;
+    grid-template-rows: 19vh 40vh 40vh;
     grid-template-columns: repeat(3,1fr);
 }
 
@@ -398,7 +400,7 @@ text-align: center;
         grid-template-rows: 12vh 29vh 29vh 29vh;
         grid-template-columns: repeat(2,1fr);
         /* margin-bottom: 400px; */
-        padding-bottom: 0;
+        padding-bottom: 8px;
         text-align: center;
         justify-content: center;
     }
@@ -478,9 +480,9 @@ text-align: center;
     .slide span{
         font-size: 1.1rem;  
     }
-    .orderHead{
-        margin-top: 0;
-        padding-bottom: .9rem;
+    #order{
+        padding-top: 3.5rem;
+        background-color: red;
     }
     .orderProducts{
         flex-direction: column;
