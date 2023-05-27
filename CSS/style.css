@@ -291,10 +291,11 @@ height: 80vh;
 top: 38vh;
 }
 #testimonials{
-    min-height: 100vh;
+    height: 70vh;
     padding-top: 2rem;
 }
 #testimonials h1{
+    margin-top: 3rem;
     margin-bottom: 8px;
 }
 
