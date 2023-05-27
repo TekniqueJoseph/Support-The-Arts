@@ -270,6 +270,10 @@ top: 38vh;
     min-height: 100vh;
     padding-top: 2rem;
 }
+#testimonials h1{
+    /* padding-bottom: 0; */
+    margin-bottom: 0;
+}
 .underline{
     margin-bottom: 0;
     margin-top: 0px;
