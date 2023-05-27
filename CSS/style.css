@@ -342,8 +342,9 @@ top: 38vh;
     min-height: 90vh;
     padding-top:1rem;
 }
-#testimonials h1{
-    margin-bottom: 8px;
+#testimonials h1{ 
+    /*  */
+    margin-bottom:0px; 
 }
 .btnL{
     font-size: 0.9rem;
