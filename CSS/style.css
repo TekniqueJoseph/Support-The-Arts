@@ -393,6 +393,7 @@ margin: 16px 16px 0px;
   @media (max-width:450px) {
     body{
         width: 100%;
+        margin: 0 auto;
     }
     #top h1{
         font-size:1rem;
@@ -513,7 +514,7 @@ margin: 16px 16px 0px;
 
   @media (max-width:350px){
     body{
-        /* width: 100%; */
+        width: 100%;
     }
     #testimonials{
         padding-top: 4rem;
