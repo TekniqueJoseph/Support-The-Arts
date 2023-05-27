@@ -1,14 +1,6 @@
-html, 
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    /* overflow-x: hidden;  */
-}
+
 html{
    scroll-behavior: smooth;
-
 }
 body{
 
@@ -189,22 +181,14 @@ header{
     margin-top: 24px;
 }
 #testimonials{
-    /* margin-top: 1rem; */
     text-align: center;
-    padding: 80px;
-    min-height: 100vh;
-    position: relative;    
+    position: relative;  
+    padding: 200px 10vw 0;
     overflow: hidden;
-    padding-top: 10rem;
+    min-height: 80vh;
     background-color: aqua;
-    /* width: 100%; */
 
 }
-#testimonials h1{
-    padding-top:0;
-    
-}
-
 .container{
     display: flex;
     width: 500%;
@@ -227,11 +211,10 @@ header{
       }
 .slide{
 width: 100%;
-margin-top: 2rem;
 }
 .slide img{
 width: 150px;
-margin-bottom: 16px;
+
 }
 .slide p{
 font-style: italic;
@@ -255,7 +238,6 @@ justify-content: space-around;
 height: 80vh;
 }
 .products{
-    /* border: 1px solid black; */
     width: 49%;
 }
 .products h1{
@@ -272,7 +254,6 @@ height: 80vh;
 }
 .item{
     width: 49.6%;
-    /* border: 1px solid black; */
     height: 33vh;
     padding: 0;
 }
@@ -282,6 +263,7 @@ height: 80vh;
 .orderList{
     width: 49%;
 }
+
 @media (max-width:1100px) {
 .brief{
 top: 38vh;
@@ -310,13 +292,7 @@ top: 38vh;
     margin-top: 0;
     font-size: 13px;
 }
-#testimonials{
-    padding: 3.5rem;
-}
-#testimonials h1{
-    margin-top: 0;
-    margin-bottom: 0;
-}
+
 .slide{
     margin-top: 0rem;
     }
@@ -356,7 +332,6 @@ top: 38vh;
     top: 41vh;
 }
 }
-
 @media (max-width:675px) {
 .brief{
     top: 43vh;
@@ -382,10 +357,7 @@ top: 38vh;
 .icon{
     margin: 0 0 2.2rem 0;
 }
-#testimonials{
-    padding: 3.5rem;
 }
-}  
 
 @media (max-width:450px) {
     #top h1{
@@ -402,7 +374,6 @@ top: 38vh;
         display: grid;
         grid-template-rows: 12vh 29vh 29vh 29vh;
         grid-template-columns: repeat(2,1fr);
-        /* margin-bottom: 400px; */
         padding-bottom: 8px;
         text-align: center;
         justify-content: center;
@@ -447,31 +418,6 @@ top: 38vh;
         padding: 0;
         margin-top: 14px;
     }
-    #testimonials{
-        padding: 0;
-        text-align: center;
-    }
-    .testSectionHead{
-        position: relative;
-        top: 200px;
-        z-index: 5;
-        padding-bottom: 2.5rem;
-    }
-    .testSectionHead h1{
-        text-align: center;
-    }
-    .container{
-        display: flex;
-        height: calc(100vh - 150px);
-        align-items: center;
-        /* justify-content: center; */
-    }
-    .underline{
-        margin-top: 1px;
-        width:5.5rem;
-
-        /* padding-top: 1rem; */
-    }
     .slide{
         margin-top: 1rem;
     }
@@ -502,20 +448,6 @@ top: 38vh;
   }
 
   @media (max-width:400px){
-    #testimonials{
-        padding-top: 4rem;
-        padding-bottom: 0;
-    }
-    .testSectionHead{
-        position: relative;
-        top: 120px;
-        /* margin: 15px; */
-    }
-    .container{
-        display: flex;
-        height: calc(100vh - 150px);
-        align-items: center;
-    }
 
     #order{
         padding-top: 4rem;
