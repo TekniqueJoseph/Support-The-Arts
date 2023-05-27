@@ -183,11 +183,10 @@ header{
 #testimonials{
     text-align: center;
     position: relative;  
-    padding: 200px 10vw 0;
+    padding: 80px 10vw 0;
     overflow: hidden;
-    min-height: 80vh;
+    min-height: 100vh;
     background-color: aqua;
-
 }
 .container{
     display: flex;
@@ -214,7 +213,6 @@ width: 100%;
 }
 .slide img{
 width: 150px;
-
 }
 .slide p{
 font-style: italic;
@@ -257,7 +255,7 @@ height: 80vh;
     height: 33vh;
     padding: 0;
 }
-.orderList h1{
+.orderList h1, h2{
     text-align: center;
 }
 .orderList{
@@ -267,6 +265,10 @@ height: 80vh;
 @media (max-width:1100px) {
 .brief{
 top: 38vh;
+}
+#testimonials{
+    min-height: 90vh;
+    padding-top: 3rem;
 }
 .underline{
     margin-bottom: 0;
@@ -336,6 +338,13 @@ top: 38vh;
 .brief{
     top: 43vh;
 }
+#testimonials{
+    min-height: 90vh;
+    padding-top: 2rem;
+}
+#testimonials h1{
+    margin-bottom: 8px;
+}
 .btnL{
     font-size: 0.9rem;
     padding: 3px 7px;
@@ -360,6 +369,10 @@ top: 38vh;
 }
 
 @media (max-width:450px) {
+    #testimonials{
+        min-height: 100vh;
+        padding-top: 3rem;
+    }
     #top h1{
         font-size:1rem;
     }
@@ -448,15 +461,18 @@ top: 38vh;
   }
 
   @media (max-width:400px){
-
+    #testimonials{
+        min-height: 100vh;
+        padding-top: 3rem;
+    }
     #order{
-        padding-top: 4rem;
+        padding-top: 3rem;
     }
     .orderHead{
         padding-bottom: 2rem;
     }
-    #order h1{
-        font-size: 1.1rem;
+    #order h1, h2{
+        font-size: 1.2rem;
     }
     #order h3{
         font-size: 1rem;
