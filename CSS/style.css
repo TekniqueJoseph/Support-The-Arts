@@ -375,11 +375,11 @@ top: 38vh;
 
 @media (max-width:450px) {
     #testimonials{
-        min-height: 100vh;
+        min-height: 95vh;
         padding: 3rem;
     }
     #testimonials h1{
-        margin-top: 7rem;
+        margin-top: 10rem;
         margin-bottom: 8px;
     }
     #top h1{
