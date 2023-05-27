@@ -250,7 +250,6 @@ text-align: center;
 display: flex;
 justify-content: space-around;
 height: 80vh;
-
 }
 .products{
     border: 1px solid black;
@@ -277,16 +276,12 @@ height: 80vh;
 .orderList h1{
     text-align: center;
 }
-
 .orderList{
     border: 1px solid black;
     width: 49%;
 }
+
 @media (max-width:1100px) {
-body{
-    margin: 0 auto;
-    width: 100%;
-}
 .brief{
 top: 38vh;
 }
@@ -331,7 +326,6 @@ margin: 16px 16px 0px;
     font-style: italic;
     font-size: .8rem;  
 }
-
 .slide span{
     font-size: .8rem;  
     margin-top: 0;
@@ -339,7 +333,6 @@ margin: 16px 16px 0px;
 #order{
     padding-top: 3rem;
 }
-
 .orderHead{
     margin-bottom: 1rem;
 /* padding-bottom: 10rem; */
@@ -394,14 +387,9 @@ margin: 16px 16px 0px;
 #testimonials{
     padding: 3.5rem;
 }
-
 } 
   
-  @media (max-width:450px) {
-    body{
-        width: 100%;
-        margin: 0 auto;
-    }
+@media (max-width:450px) {
     #top h1{
         font-size:1rem;
     }
@@ -464,8 +452,7 @@ margin: 16px 16px 0px;
     }
     .slide{
         margin-top: 1rem;
-      }
-      
+    }
     #testimonials{
         /* padding-top: 4rem;
         padding-bottom: 0; */
@@ -516,13 +503,9 @@ margin: 16px 16px 0px;
     .orderList{
         width: 100%;
     }
-    
   }
 
   @media (max-width:350px){
-    body{
-        width: 100%;
-    }
     #testimonials{
         padding-top: 4rem;
         padding-bottom: 0;
