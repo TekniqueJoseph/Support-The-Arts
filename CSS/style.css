@@ -344,6 +344,7 @@ top: 38vh;
 }
 #order h1{
     font-size: 1rem;
+    margin: 8px 0;
 }
 #order h2{
     font-size: .9rem;
@@ -352,6 +353,9 @@ top: 38vh;
     font-size: .8rem;
     margin-bottom:2px;
     margin-top: 2px;
+}
+.pride{
+    display: none;
 }
 .orderHead{
     display: none;
