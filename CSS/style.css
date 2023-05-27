@@ -287,26 +287,29 @@ height: 80vh;
 top: 38vh;
 }
 .underline{
-margin-bottom: 0;
-margin-top: 0px;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+#about{
+    padding-bottom: 4px;   
 }
 .aboutSectionHead h1{
-margin-top: 24px;
-font-size: 1.2rem;
-padding-top: 32px;
-text-align: center;
+    margin-top: 24px;
+    font-size: 1.2rem;
+    padding-top: 32px;
+    text-align: center;
 }
 .icon{
     margin: 16px 16px 0px;
     }
-    .icon img{
-        width: 3rem;
-        margin-top: 1.5rem;
-        }
-    .icon p{
-        margin-top: 0;
-        font-size: 13px;
-    }
+.icon img{
+    width: 3rem;
+    margin-top: 1.5rem;
+}
+.icon p{
+    margin-top: 0;
+    font-size: 13px;
+}
 #testimonials{
     padding: 3.5rem;
 }
