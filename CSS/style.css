@@ -271,9 +271,9 @@ top: 38vh;
     padding-top: 2rem;
 }
 #testimonials h1{
-    /* padding-bottom: 0; */
-    margin-bottom: 0;
+    margin-bottom: 8px;
 }
+
 .underline{
     margin-bottom: 0;
     margin-top: 0px;
