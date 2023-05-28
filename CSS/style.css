@@ -300,10 +300,44 @@ height: 80vh;
     background-position: center center;
     background-size: cover; 
     color: #fff;
-    } 
-.signup{
+    }
+    /* .signup{
+        text-align: center;
+    } */
+    
+#contact{
+    display: flex;
+    width: 80%;
+    max-width:700px;
+    margin:auto;
+    padding: 100px 0;
     text-align: center;
 }
+#mydetails{
+    width: 40%;
+    background:dodgerblue;
+    background:linear-gradient(rgba(0, 153, 255,0.8),rgba(0, 153, 255,0.8)), url('../images/socials/contact_me.jpg');
+    box-shadow: 1px 2px 3px lightgrey;
+    background-size: cover;
+    color: #fff;
+    text-align: left;
+    padding-left:5%;
+}
+
+#contactform{
+    width: 60%;
+    background-color:rgba(192,192,192,0.7);
+    box-shadow: 1px 2px 3px lightgrey;
+    padding-top: 10px;
+}
+        
+#contactform input{border:none;border-bottom:0.5px solid grey;margin:20px 0;width:90%;}
+
+textarea{width: 90%;margin: 10px;border: none; border-bottom: 0.5px solid grey;font-family:arial;}
+
+input[type="submit"]{border-bottom: none; background:tomato;padding: 10px;color:white;}
+
+
 footer{
     display: flex;
     position: relative;
@@ -564,6 +598,9 @@ top: 38vh;
     .orderList{
         width: 99%;
     }
+    #contact{flex-direction:column;width:90%;max-width:500px;}
+    #mydetails{width:100%;text-align: center;box-sizing: border-box;}
+    #contactform{width: 100%;}
   }
 
   @media (max-width:400px){
