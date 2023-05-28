@@ -115,8 +115,7 @@ header{
 .underline{
     width:6.5em; 
     border: none;
-    background-color:
-    black;
+    background-color: black;
     height:3px;
     margin-bottom:32px;
 }
@@ -197,8 +196,9 @@ header{
     margin-bottom: 1rem;
 }
 
-#testimonials .underline{
-    margin-bottom: 8px;
+#testimonials hr{
+    margin-bottom: 15px;
+    background-color: #fff;
 }
 .container{
     display: flex;
@@ -244,6 +244,13 @@ text-align: center;
 }
 .orderHead h1{
     margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.orderHead hr{
+    margin-top: 0;
+    padding-top: 0;
+    width: 5rem;
 }
 .orderProducts{
 display: flex;
@@ -333,6 +340,7 @@ top: 38vh;
     font-size: 1.2rem;
     padding-top: 32px;
     text-align: center;
+    margin-bottom: 4px;
 }
 .icon{
     margin: 16px 16px 0px;
