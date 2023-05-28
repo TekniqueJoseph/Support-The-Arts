@@ -295,7 +295,7 @@ height: 80vh;
 
 #connect{
     padding-top: 5rem;
-    min-height: 100vh;
+    min-height: 80vh;
     background: url('../images/socials/contact4.jpg') no-repeat;
     background-position: center center;
     background-size: cover; 
@@ -304,6 +304,27 @@ height: 80vh;
 .signup{
     text-align: center;
 }
+footer{
+    display: flex;
+    position: relative;
+    align-items: center; 
+    justify-content: space-around;
+    background:#000;
+    min-height:100px;
+    color: #fff;
+    
+}
+footer p{
+    margin:0 20px
+}
+.iconic img{
+    color: #fff !important;
+    font-size: 1rem;
+    /* background-color: #fff; */
+}
+footer a:visited{color: #fff;}
+
+
 
 @media (max-width:1100px) {
 .brief{
