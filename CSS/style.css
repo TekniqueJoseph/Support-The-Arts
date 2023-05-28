@@ -601,15 +601,33 @@ top: 38vh;
     #contact{flex-direction:column;width:90%;max-width:500px;}
     #mydetails{width:100%;text-align: center;box-sizing: border-box;}
     #contactform{width: 100%;}
-    #contact{
-        /* height: 70vh; */
-        padding-top: 0;
-        padding-bottom: 80px;
-    }
     #connect{
         height: 77vh;
-        padding-top: 50px;
+        padding-top: 54px;
     }
+    #contact{
+        /* height: 70vh; */
+        padding-top: 8px;
+        padding-bottom: 70px;
+    }
+
+    #contact h2{
+        margin:.5rem 0;
+    }
+
+    #contact p{
+        margin:.6rem 0;
+    }
+    #contactform input{ 
+        margin: .8rem;
+    }
+    #contactform textarea{ 
+        margin-top: .8rem;
+    }
+    #contactform  input[type="submit"]{
+        margin-top: .5rem;
+    }
+
   }
 
   @media (max-width:400px){
