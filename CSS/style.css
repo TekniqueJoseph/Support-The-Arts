@@ -603,7 +603,11 @@ top: 38vh;
     #contactform{width: 100%;}
     #contact{
         /* height: 70vh; */
-        padding-top: 20px;
+        padding-top: 0;
+        padding-bottom: 80px;
+    }
+    #connect{
+        height: 77vh;
     }
   }
 
