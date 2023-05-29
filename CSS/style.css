@@ -62,7 +62,7 @@ header{
     width: 0;
     overflow: hidden;
     padding: 0;
-    transition: width 0.2s;
+    transition: width 0.25s;
 }
 .li{
     margin-top: 1rem;
