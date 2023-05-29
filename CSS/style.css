@@ -629,10 +629,10 @@ top: 38vh;
         margin-top: .5rem;
     }
     footer p{
-        padding-bottom: .6rem;
+        /* padding-bottom: .6rem; */
     }
     footer img{
-        padding-bottom: .6rem;
+        /* padding-bottom: .6rem; */
     }
 
   }
