@@ -472,7 +472,7 @@ top: 38vh;
 
 .item{
     width: 49%;
-    height: 29vh;
+    height: 31vh;
 }
 .item img{
     max-width: 80%;
@@ -678,7 +678,8 @@ top: 38vh;
     width: 132px;
 }
 .item p{
-    margin-top: 16px;
+    margin-top: 22px;
+    font-size: 1.2rem;
 }
     #contact{flex-direction:column;width:90%;max-width:500px;}
     #mydetails{width:100%;text-align: center;box-sizing: border-box;}
