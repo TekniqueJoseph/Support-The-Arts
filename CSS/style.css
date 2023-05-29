@@ -645,7 +645,7 @@ top: 38vh;
         /* padding-bottom: 100px; */
         /* background-color: red; */
         justify-content: flex-end;
-        row-gap: 350px;
+        row-gap: 230px;
     }
     .products{
         width: 99%;
@@ -667,7 +667,12 @@ top: 38vh;
     margin: 0 auto;
     width: 95%;
     margin-top: 20px;
+    height: 28vh;
 }
+/* .item{
+    width: 49%;
+    height: 31vh;
+} */
 .item h3{
     padding:8px;
 }
@@ -678,7 +683,7 @@ top: 38vh;
     width: 132px;
 }
 .item p{
-    margin-top: 20px;
+    margin-top: 8px;
     font-size: 1.2rem;
 }
     #contact{flex-direction:column;width:90%;max-width:500px;}
