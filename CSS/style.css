@@ -481,6 +481,9 @@ top: 38vh;
     max-height: 55%;
     min-height: 55%;
 }
+.item p{
+    margin-top: 0;
+}
 #connect{
     /* height: 78vh; */
     padding-top: 60px;
@@ -674,6 +677,9 @@ top: 38vh;
 }
 .selection  input[type="text"]{
     width: 132px;
+}
+.item p{
+    margin-top: 16;
 }
     #contact{flex-direction:column;width:90%;max-width:500px;}
     #mydetails{width:100%;text-align: center;box-sizing: border-box;}
