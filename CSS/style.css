@@ -620,6 +620,7 @@ top: 38vh;
     #connect{
         height: 78vh;
         padding-top: 88px;
+        padding-bottom: 0;
     
     }
     #contact{
