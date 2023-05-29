@@ -344,7 +344,7 @@ footer{
     align-items: center; 
     justify-content: space-around;
     background:#000;
-    min-height:108px;
+    min-height:104px;
     color: #fff;
     
 }
@@ -603,7 +603,7 @@ top: 38vh;
     #contactform{width: 100%;}
     #connect{
         height: 74vh;
-        padding-top: 42px;
+        padding-top: 30px;
     
     }
     #contact{
