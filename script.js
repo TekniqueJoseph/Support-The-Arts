@@ -75,7 +75,11 @@ ul.addEventListener('click', function(e) {
  
 })
 
-
+key.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') {
+      return addToList()
+  }
+})
 addBtn.addEventListener('click', addToList)
 deleteBtn.addEventListener('click', deleteLi)
 
