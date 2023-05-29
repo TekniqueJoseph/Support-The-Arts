@@ -456,6 +456,20 @@ top: 38vh;
     max-height: 55%;
     min-height: 55%;
 }
+#connect{
+    /* height: 78vh; */
+    padding-top: 0px;
+}
+#contact{
+    /* height: 70vh; */
+    /* padding-top: 12px; */
+    /* padding-bottom: 24px; */
+}
+#footer{
+    /* margin-top: 10px; */
+    max-height: 25px;
+    padding: 0;
+}
 }
 
 @media (max-width:800px) {
