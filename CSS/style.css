@@ -678,7 +678,7 @@ top: 38vh;
     width: 132px;
 }
 .item p{
-    margin-top: 16;
+    margin-top: 16px;
 }
     #contact{flex-direction:column;width:90%;max-width:500px;}
     #mydetails{width:100%;text-align: center;box-sizing: border-box;}
