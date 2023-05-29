@@ -344,7 +344,7 @@ footer{
     align-items: center; 
     justify-content: space-around;
     background:#000;
-    min-height:100px;
+    min-height:108px;
     color: #fff;
     
 }
@@ -602,17 +602,18 @@ top: 38vh;
     #mydetails{width:100%;text-align: center;box-sizing: border-box;}
     #contactform{width: 100%;}
     #connect{
-        height: 72vh;
+        height: 74vh;
         padding-top: 42px;
+    
     }
     #contact{
         /* height: 70vh; */
-        padding-top: 8px;
+        padding-top: 10px;
         padding-bottom: 36px;
     }
 
     #contact h2{
-        margin:.5rem 0;
+        margin:rem 0;
     }
 
     #contact p{
@@ -626,6 +627,12 @@ top: 38vh;
     }
     #contactform  input[type="submit"]{
         margin-top: .5rem;
+    }
+    footer p{
+        padding-bottom: .6rem;
+    }
+    footer img{
+        padding-bottom: .6rem;
     }
 
   }
