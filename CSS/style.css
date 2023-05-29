@@ -284,7 +284,9 @@ height: 80vh;
     max-height: 60%;
     min-height: 60%;
 }
-.orderList h2{
+.orderList h2,
+.orderList p,
+.orderList .selection{
     text-align: center;
 }
 .orderList{
