@@ -17,7 +17,6 @@ a{
 header{
    height: 100vh;
    width: 100%;
-   /* padding: 0 1px 1px 0px; */
    background: url('../images/landing/landinge2.jpg') no-repeat;
    background-attachment: fixed;
    background-position: center center;
@@ -54,7 +53,6 @@ header{
 #responsivelist{
     position:absolute;
     top:0;left:0;
-    /* flex-direction: column; */
     background: black;
     min-height:100vh;
     color:#fff;
@@ -75,8 +73,6 @@ header{
     color:#fff;
     font-size:1.2em;
     text-align:right!important;}
-
-
 #logo{
     margin: 12px;
 }
@@ -109,8 +105,6 @@ header{
     border:1px solid white;
     margin-left:10px;
     background: rgba(1, 0, 0, 0.5);
-    /* background-color: black; */
-    /* opacity: .7; */
 }
 .underline{
     width:6.5em; 
@@ -125,7 +119,6 @@ header{
     grid-template-columns: repeat(3,1fr);
     padding-bottom: 10px;
 }
-
 .aboutSectionHead .backGround{
     width: 100%;
     height: 100vh;
@@ -136,13 +129,9 @@ header{
     opacity: .2;
 }
 .aboutSectionHead{
-    /* margin-top: 4rem; */
-    /* text-align: center; */
-    /* opacity: 2; */
     grid-area: 1/1/2/4;
     justify-self: center;
 }
-
 .aboutSectionHead h1{
     margin-top: 0;
     padding-top: 4rem;
@@ -176,7 +165,6 @@ header{
     grid-area: 3/3/4/4;
     justify-self: center;
 }
-
 .icon img{
     width: 7rem;
     margin-top: 24px;
@@ -195,7 +183,6 @@ header{
     margin-top: 10rem;
     margin-bottom: 1rem;
 }
-
 #testimonials hr{
     margin-bottom: 15px;
     background-color: #fff;
@@ -237,7 +224,6 @@ background: url('../images/shop/white1.jpg') no-repeat;
 /* background-attachment: fixed; */
 background-position: center center;
 background-size: cover; 
-/* margin-top: 10rem; */
 }  
 .orderHead{
 text-align: center;
@@ -246,7 +232,6 @@ text-align: center;
     margin-top: 0;
     margin-bottom: 3px;
 }
-
 .orderHead hr{
     margin-top: 0;
     padding-top: 0;
@@ -264,7 +249,6 @@ height: 80vh;
 .productSelections{
     display: flex;
     justify-content: space-around;
-    /* align-items: flex-end; */
     flex-flow: wrap;
     row-gap: 12px;
 }
@@ -274,9 +258,7 @@ height: 80vh;
     padding: 0;
     background: rgba(255, 255, 255, 0.7);
     box-shadow: 2px 2px 5px 2px;
-    /* border: 1px solid black; */
 }
-
 .item img{
     max-width: 70%;
     min-width: 70%;
@@ -300,7 +282,6 @@ height: 80vh;
     margin: 0 auto;
     text-align: center;
 }
-
 #cardList{
     text-align: center;
     list-style-type: none;
@@ -320,7 +301,6 @@ height: 80vh;
     background:darkgrey;
     box-shadow: 1px 1px 2px 2px lightgray;
 }
-
 #connect{
     padding-top: 5rem;
     min-height: 75vh;
@@ -329,9 +309,6 @@ height: 80vh;
     background-size: cover; 
     color: #fff;
     }
-    /* .signup{
-        text-align: center;
-    } */
 #contact{
     display: flex;
     width: 80%;
@@ -360,11 +337,8 @@ height: 80vh;
 }
         
 #contactform input{border:none;border-bottom:0.5px solid grey;margin:20px 0;width:90%;}
-
 textarea{width: 90%;margin: 10px;border: none; border-bottom: 0.5px solid grey;font-family:arial;}
-
 input[type="submit"]{border-bottom: none; background:tomato;padding: 10px;color:white;}
-
 
 footer{
     display: flex;
@@ -374,7 +348,6 @@ footer{
     background:#000;
     min-height:104px;
     color: #fff;
-    
 }
 footer p{
     margin:0 20px
@@ -382,11 +355,10 @@ footer p{
 .iconic img{
     color: #fff !important;
     font-size: 1rem;
-    /* background-color: #fff; */
 }
 footer a:visited{color: #fff;}
 
-
+/* MEDIA QUERY 1100PX */
 @media (max-width:1100px) {
 .brief{
 top: 38vh;
@@ -472,7 +444,6 @@ top: 38vh;
 .orderHead{
     display: none;
 }
-
 .item{
     width: 49%;
     height: 31vh;
@@ -487,18 +458,14 @@ top: 38vh;
     margin-top: 0;
 }
 #connect{
-    /* height: 78vh; */
     padding-top: 60px;
     padding-bottom: 36px;
     margin-top:0;
 }
 #contact{
-    /* height: 70vh; */
     padding: 0;
-    /* padding-bottom: 24px; */
 }
 #footer{
-    /* margin-top: 10px; */
     max-height: 25px;
     padding: 0;
 }
