@@ -630,7 +630,7 @@ top: 38vh;
         font-size: 1.1rem;  
     }
     #order{
-        min-height: 150vh;
+        min-height: 160vh;
         padding: 0;
         margin-top: 0;
         /* padding-bottom: 50rem; */
@@ -645,7 +645,7 @@ top: 38vh;
         /* padding-bottom: 100px; */
         /* background-color: red; */
         justify-content: flex-end;
-        row-gap: 230px;
+        row-gap: 215px;
     }
     .products{
         width: 99%;
@@ -659,20 +659,17 @@ top: 38vh;
         display: block;
     }
     .orderList{
-        min-height: 50vh;
+        min-height: 60vh;
         /* border: 1px solid black; */
     }
 
 .item{
     margin: 0 auto;
-    width: 95%;
+    width: 92%;
     margin-top: 20px;
-    height: 28vh;
+    height: 27vh;
 }
-/* .item{
-    width: 49%;
-    height: 31vh;
-} */
+
 .item h3{
     padding:8px;
 }
