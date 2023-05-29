@@ -2,13 +2,16 @@ const hamburger = document.getElementById('hamburger')
 const slideMenu = document.getElementById('responsivelist');
 const x = document.getElementById('closemenu')
 const slideListItems = document.querySelectorAll('.li')
+
 const key = document.getElementById('input')
 const addBtn = document.querySelector('#add')
 const deleteBtn = document.querySelector('#delete')
 const btn = document.getElementById("myBtn");
-const orderBtn = document.querySelector('#order')
+const orderBtn = document.querySelector('#orderBtn')
 let ul = document.getElementById('cardList')
 let listLi = document.querySelectorAll('#cardList li')
+const modal = document.getElementById("myModal");
+const closeModal = document.getElementById('xModal')
 
 const openSlideMenu = () => {
     slideMenu.style.width = "200px";
@@ -75,6 +78,33 @@ ul.addEventListener('click', function(e) {
  
 })
 
+const printOrder = () => {
+  let listLi = document.querySelectorAll('#cardList li')
+  let listLength = listLi.length
+  if(listLength === 0) {
+      alert('Please enter items for smoothie before ordering')
+      modal.style.display = "none";
+  } else {
+      const ordNum = Math.floor(Math.random() * 1000) + 1;
+      console.log(`Customer# ${ordNum} ordered`, items)
+      alert(`Your Order# is ${ordNum} and it has been placed. Thank You!`)
+      ul.replaceChildren()
+      items = []
+      modal.style.display = "none";
+      return  
+  }
+}
+
+const openModal = () => {
+  modal.style.display = "block";
+  return
+}
+
+const snap = () => {
+  modal.style.display = "none";
+  return
+}
+
 key.addEventListener('keydown', (event) => {
   if (event.key === 'Enter') {
       return addToList()
@@ -82,4 +112,13 @@ key.addEventListener('keydown', (event) => {
 })
 addBtn.addEventListener('click', addToList)
 deleteBtn.addEventListener('click', deleteLi)
+orderBtn.addEventListener('click', printOrder)
+btn.addEventListener('click', openModal)
+closeModal.addEventListener('click', snap)
+window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+
 
