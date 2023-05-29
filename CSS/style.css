@@ -603,13 +603,13 @@ top: 38vh;
     #contactform{width: 100%;}
     #connect{
         height: 78vh;
-        padding-top: 60px;
+        padding-top: 76px;
     
     }
     #contact{
         /* height: 70vh; */
         padding-top: 36px;
-        padding-bottom: 16px;
+        padding-bottom: 24px;
     }
 
     #contact h2{
