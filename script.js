@@ -36,10 +36,10 @@ const addToList = () => {
     let listLength = listLi.length
     if (listLength === 4) {
         document.getElementById('input').value = ''
-        alert('You Have Entered The Maximum Amount Of Items To Add')
+        alert('You Have Entered The Maximum Amount Of Services To Add')
         return
     } else if (key.value === '') {
-        alert('Please enter items for smoothies')
+        alert('Please enter the services you wish tp purchase')
         return
     } else {
         let usrInput = document.getElementById('input').value
