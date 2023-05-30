@@ -276,6 +276,17 @@ height: 80vh;
 .orderList{
     width: 48%;
 }
+
+.selection button{
+    border: none;
+    background-color: black;
+    color: #fff;
+    padding: 3px 8px;
+}
+
+.selection input{
+    padding: 2px 2px;
+}
 .list{
     width: fit-content;
     width: 30%;
@@ -622,7 +633,7 @@ top: 38vh;
 }
 .item{
     margin: 0 auto;
-    width: 92%;
+    width: 85%;
     margin-top: 20px;
     height: 27vh;
 }
@@ -666,7 +677,7 @@ top: 38vh;
 }
 }
 
-  @media (max-width:400px){
+@media (max-width:400px){
     #testimonials{
         min-height: 100vh;
         padding-top: 3rem;
