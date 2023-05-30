@@ -258,7 +258,7 @@ height: 80vh;
     padding: 0;
     background: rgba(255, 255, 255, 0.7);
     box-shadow: 2px 2px 5px 2px;
-    border-radius: 6px;
+    border-radius: 7px;
 }
 .item img{
     max-width: 70%;
@@ -382,7 +382,7 @@ top: 38vh;
 #testimonials h1{
     margin-top: 2rem;
     margin-bottom: 6px;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 #testimonials img{
     margin-top: .5rem;
@@ -536,7 +536,7 @@ top: 38vh;
 #testimonials h1{
     margin-top: 9rem;
     margin-bottom: 8px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 #top h1{
     font-size:1rem;
