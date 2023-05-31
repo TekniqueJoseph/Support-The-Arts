@@ -630,6 +630,9 @@ top: 38vh;
     width: 99%;
     height: 99vh;
 }
+.productHeader{
+    padding-top: 8px;
+}
 .productSelections{
     display: block;
 }
