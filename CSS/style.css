@@ -619,12 +619,13 @@ top: 38vh;
     min-height: 160vh;
     padding: 0;
     margin-top: 0;
+    /* z-index: 20; */
 }
 .orderProducts{
     flex-direction: column;
     height: 100%;
     justify-content: flex-end;
-    row-gap: 215px;
+    row-gap: 200px;
 }
 .products{
     width: 99%;
@@ -639,11 +640,13 @@ top: 38vh;
 .orderList{
     min-height: 60vh;
     width: 99%;
+    /* margin-top: 10px; */
 }
 .orderList p{
     display: none;
 }
 #orderMod h2{
+    margin-top: 0px;
     font-size: 1.1rem;
 }
 .item{
@@ -651,7 +654,7 @@ top: 38vh;
     margin: 0 auto;
     width: 85%;
     margin-top: 20px;
-    height: 27vh;
+    height: 26vh;
 }
 .item h3{
     padding:8px;
@@ -685,7 +688,7 @@ top: 38vh;
 #contactform{width: 100%;}
 #connect{
     height: 78vh;
-    padding-top: 88px;
+    padding-top: 86px;
     padding-bottom: 0;
 }
 #contact{
