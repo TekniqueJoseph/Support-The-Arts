@@ -640,6 +640,12 @@ top: 38vh;
     min-height: 60vh;
     width: 99%;
 }
+.orderList p{
+    display: none;
+}
+#orderMod h2{
+    font-size: 1.1rem;
+}
 .item{
     /* display: flex; */
     margin: 0 auto;
@@ -651,6 +657,7 @@ top: 38vh;
     padding:8px;
 }
 .item p{
+    /* display: no; */
     margin-top: 8px;
     font-size: 1.2rem;
 }
