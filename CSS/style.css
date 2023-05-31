@@ -619,7 +619,6 @@ top: 38vh;
     min-height: 160vh;
     padding: 0;
     margin-top: 0;
-    /* z-index: 20; */
 }
 .orderProducts{
     flex-direction: column;
