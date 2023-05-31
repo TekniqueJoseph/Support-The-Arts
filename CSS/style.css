@@ -641,6 +641,7 @@ top: 38vh;
     width: 99%;
 }
 .item{
+    /* display: flex; */
     margin: 0 auto;
     width: 85%;
     margin-top: 20px;
@@ -653,8 +654,24 @@ top: 38vh;
     margin-top: 8px;
     font-size: 1.2rem;
 }
+
+.selection{
+    text-align: center;
+}
+
 .selection  input[type="text"]{
-    width: 132px;
+    margin: 0 auto 16px;
+    width: 232px;
+    font-size: 1.2rem;
+    display: block;
+}
+.selection button{
+    padding: 6px 16px;
+    font-size: 1.2rem;
+    margin: 0 3px;
+    border-radius: 8px;
+    /* width: 6rem; */
+    text-align: center;
 }
 #contact{flex-direction:column;width:90%;max-width:500px;}
 #mydetails{width:100%;text-align: center;box-sizing: border-box;}
