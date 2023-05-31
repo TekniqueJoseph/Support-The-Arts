@@ -191,8 +191,8 @@ header{
     width: 500%;
     position: absolute;
     left: 0;
-    animation: amimate 30s 2;
-    animation-delay:6s;
+    animation: amimate 30s 5;
+    animation-delay:5s;
     animation-timing-function: linear;
   }
   @keyframes amimate {
