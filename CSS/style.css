@@ -264,6 +264,8 @@ height: 80vh;
     min-width: 70%;
     max-height: 60%;
     min-height: 60%;
+    box-shadow: 1px 1px 6px 1px;
+    border-radius: 4px;
 }
 .item p{
     margin-top: 7px;
