@@ -638,8 +638,7 @@ top: 38vh;
 }
 .orderList{
     min-height: 60vh;
-    width: 99%;
-    /* margin-top: 10px; */
+    width: 99%; 
 }
 .orderList p{
     display: none;
@@ -649,7 +648,6 @@ top: 38vh;
     font-size: 1.1rem;
 }
 .item{
-    /* display: flex; */
     margin: 0 auto;
     width: 85%;
     margin-top: 20px;
