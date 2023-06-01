@@ -315,13 +315,12 @@ height: 80vh;
     box-shadow: 1px 1px 2px 2px lightgray;
 }
 #connect{
-    padding-top: 1rem;
+    padding-top: 8rem;
     min-height: 75vh;
     background: url('../images/socials/contact4.jpg') no-repeat;
     background-position: center center;
     background-size: cover; 
     color: #fff;
-    padding-bottom: 3rem;
     }
 #contact{
     display: flex;
@@ -340,12 +339,7 @@ height: 80vh;
     background-size: cover;
     color: #fff;
     text-align: left;
-    padding-left:8px;
-}
-
-#mydetails img{
-    width: 15px;
-    height: 16px;
+    padding-left:5px;
 }
 
 #contactform{
