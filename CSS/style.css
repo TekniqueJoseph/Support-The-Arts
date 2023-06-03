@@ -228,13 +228,14 @@ background-size: cover;
 text-align: center;
 }
 .orderHead h1{
-    margin-top: 0;
+    margin-top: .5rem;
     margin-bottom: 3px;
 }
 .orderHead hr{
-    margin-top: 0;
-    padding-top: 0;
-    width: 5rem;
+    margin-top: 6px;
+    margin-bottom: 24px;
+    padding-top: 0px;
+    width: 6rem;
 }
 .orderProducts{
 display: flex;
@@ -249,15 +250,21 @@ height: 80vh;
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
-    row-gap: 12px;
+    row-gap: 48px;
+}
+.productHeader{
+    margin-bottom: 36px;
 }
 .item{
-    width: 48%;
-    height: 32vh;
+    width: 45%;
+    height: 26vh;
     padding: 0;
     background: rgba(255, 255, 255, 0.7);
     box-shadow: 2px 2px 5px 2px;
     border-radius: 7px;
+}
+.item h3{
+    margin: 10px ;
 }
 .item img{
     max-width: 70%;
@@ -268,7 +275,10 @@ height: 80vh;
     border-radius: 2px;
 }
 .item p{
-    margin-top: 7px;
+    margin-top: 16px;
+}
+.pride{
+    margin-top: 3rem;
 }
 .orderList h2,
 .orderList p,
@@ -462,9 +472,15 @@ top: 38vh;
 .orderHead{
     display: none;
 }
+.productSelections{
+    row-gap: 24px;
+}
 .item{
-    width: 49%;
+    width: 45%;
     height: 31vh;
+}
+.item h3{
+    padding: 4px;
 }
 .item img{
     max-width: 80%;
@@ -473,7 +489,7 @@ top: 38vh;
     min-height: 55%;
 }
 .item p{
-    margin-top: 0;
+    margin: 4px 0 2px;
 }
 #connect{
     padding-top: 60px;
