@@ -289,6 +289,10 @@ height: 80vh;
     width: 48%;
 }
 
+.selection input{
+    padding: 2px 2px;
+}
+
 .selection button{
     border: none;
     background-color: black;
@@ -296,9 +300,7 @@ height: 80vh;
     padding: 3px 8px;
 }
 
-.selection input{
-    padding: 2px 2px;
-}
+
 .list{
     width: fit-content;
     width: 30%;
