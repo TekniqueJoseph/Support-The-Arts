@@ -400,7 +400,7 @@ footer p{
 }
 footer a:visited{color: #fff;}
 
-/* MEDIA QUERY 1100PX */
+/* !!!!!!!!!!!!!!!!!!!!!MEDIA QUERY 1100PX!!!!!!!!!!!!!!!!!!!!! */
 @media (max-width:1100px) {
 .brief{
 top: 38vh;
@@ -508,6 +508,9 @@ top: 38vh;
     padding-bottom: 0px;
     font-size: 0.9rem;
     font-weight: bold;
+}
+.selection input[type = 'text']{
+    /* background-color: red; */
 }
 .selection button{
     width: 72px;
