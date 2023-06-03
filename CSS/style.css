@@ -487,14 +487,15 @@ top: 38vh;
     display: none;
 }
 .productSelections{
-    row-gap: 16px;
+    row-gap: 14px;
+    /* column-gap: 1px; */
 }
 .item{
     width: 45%;
     height: 35vh;
 }
 .item h3{
-    padding: 4px;
+    padding: 2px;
     font-weight: normal;
 }
 .item img{
