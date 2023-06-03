@@ -515,8 +515,8 @@ top: 38vh;
 }
 .selection button{
     width: 66px;
-    font-size: 0.8rem;
-    padding: 4px 0;
+    font-size:1rem;
+    padding: 3px 0;
 }
 #connect{
     padding-top: 60px;
