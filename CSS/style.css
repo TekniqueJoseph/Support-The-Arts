@@ -290,14 +290,18 @@ height: 80vh;
 }
 
 .selection input{
-    padding: 2px 2px;
+    /* padding: 2px 2px; */
+    font-size: 1.1rem;
+    width: 156px;
 }
 
 .selection button{
     border: none;
     background-color: black;
     color: #fff;
-    padding: 3px 8px;
+    font-size: 1rem;
+    padding: 3px 0;
+    width: 96px;
 }
 
 
@@ -479,10 +483,11 @@ top: 38vh;
 }
 .item{
     width: 45%;
-    height: 31vh;
+    height: 33vh;
 }
 .item h3{
     padding: 4px;
+    font-weight: normal;
 }
 .item img{
     max-width: 80%;
@@ -492,6 +497,12 @@ top: 38vh;
 }
 .item p{
     margin: 4px 0 2px;
+    padding-bottom: 0px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.selection button{
+    width: 72px;
 }
 #connect{
     padding-top: 60px;
@@ -697,12 +708,12 @@ top: 38vh;
     overflow: hidden;
 }
 .selection button{
-    padding: 6px 16px;
+    padding: 6px 0;
     font-size: 1.2rem;
     margin: 0 3px;
     border-radius: 8px;
-    /* width: 6rem; */
-    text-align: center;
+    width: 6rem;
+    /* text-align: center; */
 }
 #contact{flex-direction:column;width:90%;max-width:500px;}
 #mydetails{width:100%;text-align: center;box-sizing: border-box;}
