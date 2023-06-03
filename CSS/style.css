@@ -513,7 +513,9 @@ top: 38vh;
     /* background-color: red; */
 }
 .selection button{
-    width: 72px;
+    width: 66px;
+    font-size: 0.8rem;
+    padding: 5px 0;
 }
 #connect{
     padding-top: 60px;
