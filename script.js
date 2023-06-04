@@ -39,7 +39,7 @@ const addToList = () => {
         alert('You Have Entered The Maximum Amount Of Services To Add')
         return
     } else if (key.value === '') {
-        alert('Please enter the services you wish tp purchase')
+        alert('Please enter the services you wish to purchase')
         return
     } else {
         let usrInput = document.getElementById('input').value
