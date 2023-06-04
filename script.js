@@ -82,7 +82,7 @@ const printOrder = () => {
   let listLi = document.querySelectorAll('#cardList li')
   let listLength = listLi.length
   if(listLength === 0) {
-      alert('Please enter items for smoothie before ordering')
+      alert('Please enter items before ordering')
       modal.style.display = "none";
   } else {
       const ordNum = Math.floor(Math.random() * 1000) + 1;
