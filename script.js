@@ -59,7 +59,7 @@ const addToList = () => {
 
 const deleteLi = () => {
   let listLi = document.querySelectorAll('#cardList li')
-  let listLength = listLi.length
+  let listLength = listLi.length 
   if(listLength === 0){
       alert('There is nothing to remove.')
   } else {

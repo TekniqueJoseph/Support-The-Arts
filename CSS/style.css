@@ -488,7 +488,7 @@ top: 38vh;
 }
 .productSelections{
     row-gap: 14px;
-    /* column-gap: 1px; */
+    /* column-gap: 1px;s */
 }
 .item{
     width: 45%;
